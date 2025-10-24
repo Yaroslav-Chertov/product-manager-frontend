@@ -1,0 +1,59 @@
+# dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# build output
+dist/
+build/
+coverage/
+
+# env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# editor configs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# misc
+*.log
+*.tmp
+*.tgz
+
+# OS
+.DS_Store
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
+
+# ESLint
+.eslintcache
+
+# Prettier
+.prettier-cache/
+.prettierignore
+
+# Storybook
+storybook-static/
+.out/
+*.stories.tsx
+*.stories.mdx
+
+# testing
+jest-html-reporters-*.html
+coverage-final.json
